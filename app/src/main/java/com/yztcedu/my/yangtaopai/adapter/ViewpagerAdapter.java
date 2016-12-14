@@ -13,10 +13,7 @@ import com.yztcedu.my.yangtaopai.activity.MainActivity;
 
 import java.util.List;
 
-import yztcedu.com.yangtaotop.R;
-import com.yztcedu.my.yangtaopai.activity.GuideActivity;
-import com.yztcedu.my.yangtaopai.activity.MainActivity;
-import com.yztcedu.my.yangtaopai.activity.SplashActivity;
+import com.yztcedu.my.yangtaopai.R;
 
 /**
  * Created by Administrator on 2016/12/6.

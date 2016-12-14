@@ -13,10 +13,9 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import yztcedu.com.yangtaotop.R;
+import com.yztcedu.my.yangtaopai.R;
 
 import com.yztcedu.my.yangtaopai.adapter.MainAdapter;
-import com.yztcedu.my.yangtaopai.base.BaseActivity;
 import com.yztcedu.my.yangtaopai.fragment.MainFragment;
 import com.yztcedu.my.yangtaopai.fragment.MessageFragment;
 import com.yztcedu.my.yangtaopai.fragment.RankFragment;
@@ -70,9 +69,7 @@ public class MainActivity extends BaseActivity {
         mVpMain.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
             }
-
             @Override
             public void onPageSelected(int position) {  //滑动结束
                 setTab(position);

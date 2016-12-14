@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import yztcedu.com.yangtaotop.R;
+import com.yztcedu.my.yangtaopai.R;
 import com.yztcedu.my.yangtaopai.base.BaseFragment;
 
 /**

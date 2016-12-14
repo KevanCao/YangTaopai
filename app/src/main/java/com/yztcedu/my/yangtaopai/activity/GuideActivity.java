@@ -8,7 +8,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import yztcedu.com.yangtaotop.R;
+import com.yztcedu.my.yangtaopai.R;
 
 import com.yztcedu.my.yangtaopai.adapter.ViewpagerAdapter;
 import com.yztcedu.my.yangtaopai.base.BaseActivity;

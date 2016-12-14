@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 import com.yztcedu.my.yangtaopai.base.BaseFragment;
 
-import yztcedu.com.yangtaotop.R;
+import com.yztcedu.my.yangtaopai.R;
 
 /**
  * Created by Administrator on 2016/12/7.

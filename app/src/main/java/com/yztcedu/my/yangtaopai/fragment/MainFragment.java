@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 
 import com.yztcedu.my.yangtaopai.base.BaseFragment;
 
-import yztcedu.com.yangtaotop.R;
+import com.yztcedu.my.yangtaopai.R;
 
 /**
  * A simple {@link Fragment} subclass.

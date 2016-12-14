@@ -1,13 +1,225 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="yztcedu.com.yangtaotop.fragment.UserFragment">
+    tools:context="com.yztcedu.my.yangtaopai.fragment.UserFragment"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@color/colorBackground">
+        <ImageView
+            android:id="@+id/touxiang_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/touxiang"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_vertical"
+            android:text="@string/log_in"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/order"
+            android:textColor="@color/colorGarry"
+            android:textSize="12sp"
+            android:drawableTop="@mipmap/order"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGarry"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wait_pay"
+            android:textColor="@color/colorGarry"
+            android:textSize="12sp"
+            android:drawableTop="@mipmap/wait_pay"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGarry"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/shipment"
+            android:textColor="@color/colorGarry"
+            android:textSize="12sp"
+            android:drawableTop="@mipmap/shipment"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGarry"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/havest"
+            android:textColor="@color/colorGarry"
+            android:textSize="12sp"
+            android:drawableTop="@mipmap/havest"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGarry"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/already"
+            android:textColor="@color/colorGarry"
+            android:textSize="12sp"
+            android:drawableTop="@mipmap/already"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorLightGray"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="介绍给朋友"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorBackground"
+        android:drawableLeft="@mipmap/icony_plane"
+        android:drawableRight="@mipmap/jiantou"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorLightGray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@mipmap/icoy_tic"
+        android:text="  优惠券"
+        android:textSize="16sp"
+        android:textColor="@color/colorGarry"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/jiantou"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@mipmap/bg_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@mipmap/icony_address"
+        android:text="  收货地址"
+        android:textSize="16sp"
+        android:textColor="@color/colorGarry"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/jiantou" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@mipmap/bg_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@mipmap/icony_guest"
+        android:text="  客服"
+        android:textSize="16sp"
+        android:textColor="@color/colorGarry"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/jiantou" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorLightGray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@mipmap/icony_shop"
+        android:text="  商品"
+        android:textSize="16sp"
+        android:textColor="@color/colorGarry"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/jiantou" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@mipmap/bg_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@mipmap/icony_rank"
+        android:text="  榜单"
+        android:textSize="16sp"
+        android:textColor="@color/colorGarry"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/jiantou" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorLightGray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@mipmap/icony_shop"
+        android:text="  清除缓存"
+        android:textSize="16sp"
+        android:textColor="@color/colorGarry"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/jiantou" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@mipmap/bg_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@mipmap/icony_idear"
+        android:text="  意见反馈"
+        android:textSize="16sp"
+        android:textColor="@color/colorGarry"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/jiantou" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@mipmap/bg_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:drawableLeft="@mipmap/icony_grade"
+        android:text="  去评分"
+        android:textSize="16sp"
+        android:textColor="@color/colorGarry"
+        android:gravity="center_vertical"
+        android:drawableRight="@mipmap/jiantou" />
 
-</FrameLayout>
+</LinearLayout>

@@ -9,7 +9,7 @@ import android.os.Bundle;
 import com.yztcedu.my.yangtaopai.base.BaseActivity;
 import com.yztcedu.my.yangtaopai.util.SharedPreferencesUtils;
 
-import yztcedu.com.yangtaotop.R;
+import com.yztcedu.my.yangtaopai.R;
 
 public class SplashActivity extends BaseActivity {
 
