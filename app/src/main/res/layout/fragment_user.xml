@@ -96,7 +96,7 @@
     </LinearLayout>
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="5dp"
+        android:layout_height="8dp"
         android:background="@color/colorLightGray"/>
     <TextView
         android:layout_width="match_parent"
@@ -109,9 +109,9 @@
         android:drawableRight="@mipmap/jiantou"
         android:paddingLeft="2dp"
         android:paddingRight="2dp" />
-    <View
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="5dp"
+        android:layout_height="8dp"
         android:background="@color/colorLightGray"/>
     <TextView
         android:layout_width="match_parent"
@@ -153,7 +153,7 @@
         android:drawableRight="@mipmap/jiantou" />
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="5dp"
+        android:layout_height="8dp"
         android:background="@color/colorLightGray"/>
     <TextView
         android:layout_width="match_parent"
@@ -181,7 +181,7 @@
         android:drawableRight="@mipmap/jiantou" />
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="5dp"
+        android:layout_height="8dp"
         android:background="@color/colorLightGray"/>
     <TextView
         android:layout_width="match_parent"
